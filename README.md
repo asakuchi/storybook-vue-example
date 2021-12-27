@@ -1,6 +1,8 @@
 # storybook-vue-example
 
-## Storybook
+Storybook で Sass の変数をグローバルに読み込むサンプル
+
+## Storybook 起動
 
 ```
 # workaround
