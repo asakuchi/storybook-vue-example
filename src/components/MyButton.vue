@@ -16,7 +16,7 @@ export default defineComponent({
 
 <style scoped lang="scss">
 
-  $my-color: aquamarine;
+  @use "../assets/variables.scss" as *;
 
   .color {
     color: blue;
