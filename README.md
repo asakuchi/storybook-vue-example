@@ -1,29 +1,12 @@
 # storybook-vue-example
 
-## Project setup
+## Storybook
+
 ```
-yarn install
+# workaround
+export NODE_OPTIONS=--openssl-legacy-provider
+
+yarn storybook
 ```
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Run your unit tests
-```
-yarn test:unit
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+[workaround](https://github.com/webpack/webpack/issues/14532#issuecomment-947012063)
