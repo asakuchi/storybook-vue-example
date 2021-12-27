@@ -15,8 +15,11 @@ export default defineComponent({
 </script>
 
 <style scoped lang="scss">
+
+  $my-color: aquamarine;
+
   .color {
     color: blue;
-    background-color: aquamarine;
+    background-color: $my-color;
   }
 </style>
